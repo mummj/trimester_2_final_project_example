@@ -1,0 +1,28 @@
+body{
+  background-image: url('/img/appleTreeBackground.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+img{
+  width: 3%;
+  height:6%;
+  position: absolute;
+  animation: falling 8s infinite;
+}
+
+@keyframes falling{
+  100%{transform: translateY(650px)}
+}
+#scoreboardbackground{
+  margin-top: 2%;
+  margin-right: 2%;
+  background-color: white;
+  height:15px;
+  width:100px;
+}
+h2{
+  color:black;
+  font-weight: bolder;
+}
