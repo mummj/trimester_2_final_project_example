@@ -26,3 +26,20 @@ h2{
   color:black;
   font-weight: bolder;
 }
+#title{
+  text-align: center;
+  font-size: xx-large;
+  margin-bottom: 1%;
+  margin-top: 10%;
+}
+#finalScore{
+  text-align: center;
+  font-size: xx-large;
+  margin-bottom: 1%;
+}
+button{
+  display: block;
+  margin: auto;
+  background-color: red;
+  font-size: xx-large;
+}
